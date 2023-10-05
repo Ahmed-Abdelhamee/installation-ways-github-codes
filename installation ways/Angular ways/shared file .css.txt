@@ -1,0 +1,29 @@
+
+to link a style-file and share it between components 
+
+
+we put it in assets or other custom folder 
+
+
+then add it's link in angular.json    like :
+
+"styles": [
+              "src/assets/shared-styles/home-shared-style.scss"
+            ],
+
+
+
+
+-------------------------------------------------------------------------
+
+to link a style-file and share it between components 
+
+
+we put it in assets or other custom folder 
+
+
+then add it's link in angular.json    like :
+
+"styles": [
+              "src/assets/shared-styles/home-shared-style.scss"
+            ],
