@@ -1,0 +1,10 @@
+git add .
+
+git commit -m " message update "
+
+git pull
+
+git push         -->> or -->> git push --set-upstream origin main  -->> or  -->> git push --set-upstream -f origin main
+
+
+git push --set-upstream -f origin main

@@ -1,0 +1,17 @@
+create a new repository on the command line  => public repository
+
+select Git Bash Here
+
+echo "# project name " >> README.md
+
+git init
+
+git add .      ---->> for angular project        or              git add README.md   ---->>> for js project 
+       
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/Ahmed-Abdelhamee/(repository-name).git
+
+git push -u origin main    //  use this -->> git push -f origin main   // or -->  git push --set-upstream origin main  (in case code not uploaded ) 

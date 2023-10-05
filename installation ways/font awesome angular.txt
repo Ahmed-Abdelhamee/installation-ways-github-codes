@@ -1,0 +1,35 @@
+
+add this in angular json   scss
+...........
+"node_modules/font-awesome/css/font-awesome.css"
+
+
+then install   
+...........
+
+npm install --save font-awesome angular-font-awesome
+
+ng add @fortawesome/angular-fontawesome
+
+npm i @fortawesome/angular-fontawesome
+
+
+import in module.ts
+.............
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+FontAwesomeModule
+
+
+we use it in component 
+......................
+
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+faCoffee=faCoffee;     // as avariable to binding
+
+<fa-icon [icon]="faCoffee"></fa-icon>
+
+
+
+

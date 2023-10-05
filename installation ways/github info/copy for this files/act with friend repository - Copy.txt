@@ -1,0 +1,32 @@
+git add .
+
+
+git init
+
+git commit -m  " ( your commit )" 
+
+
+git remote add orirgin  https://github.com/ ..... ( the repository link )
+
+
+
+git push --set-upstream origin master
+
+
+******************************************************************
+git add .
+
+
+git init
+
+git commit -m  " ( your commit )" 
+
+
+git remote add orirgin  https://github.com/ ..... ( the repository link )
+
+
+
+git push --set-upstream origin master
+
+
+
