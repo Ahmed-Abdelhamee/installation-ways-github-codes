@@ -1,0 +1,42 @@
+npm install -g firebase-tools
+
+firebase logout
+
+firebase login
+
+firebase init 
+
+after that we choose hosting for the list viewed
+then we write     Y
+
+		  we choose hosting 
+
+		  docs     or forlder of build product
+
+		  Y
+
+		  N
+
+		  N
+
+
+firebase deploy         * or *       firebase deploy --only hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
