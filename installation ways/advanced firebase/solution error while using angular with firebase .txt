@@ -1,0 +1,24 @@
+
+
+the error in console 
+
+Angular Fire - No Provider for InjectionToken (angularfire2.app.options)
+
+
+
+
+Solution
+
+
+On the file app.module.ts add the following provider object:
+
+
+
+import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+
+@NgModule({
+    ...
+    providers: [
+        { provide: FIREBASE_OPTIONS, useValue: environment.firebaseConfig }
+    ],
+})
