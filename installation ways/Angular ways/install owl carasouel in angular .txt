@@ -1,0 +1,195 @@
+https://www.tutsmake.com/owl-carousel-in-angular-14/
+the source web information 
+
+
+
+Step 1 :  Install OWL Carousel Library
+
+npm install jquery --save
+npm install ngx-owl-carousel-o
+
+
+
+After that, open angular.json file and update the following code into it:
+
+...
+"styles": [
+    "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+    "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+],
+"scripts": [
+  "node_modules/jquery/dist/jquery.min.js",
+]
+
+
+
+
+Step 2 : Import Modules in Module.ts File
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+   
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    CarouselModule,
+    BrowserAnimationsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+
+
+
+
+
+Setp 3 : Use Owl Carousel Slider on View File
+   
+<owl-carousel-o [options]="customOptions">
+   
+<ng-container *ngFor="let slide of slides">
+  <ng-template carouselSlide [id]="slide.id">
+    <img [src]="slide.img" >
+  </ng-template>
+</ng-container>
+   
+</owl-carousel-o>
+
+
+
+
+
+Step 4 :  Add Code On app.Component ts File
+
+import { Component } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
+   
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'ng-carousel-demo';
+   
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 4
+      }
+    },
+    nav: true
+  }
+   
+    slides = [
+      {id: 1, img: "https://dummyimage.com/350x150/423b42/fff"},
+      {id: 2, img: "https://dummyimage.com/350x150/2a2b7a/fff"},
+      {id: 3, img: "https://dummyimage.com/350x150/1a2b7a/fff"},
+      {id: 4, img: "https://dummyimage.com/350x150/7a2b7a/fff"},
+      {id: 5, img: "https://dummyimage.com/350x150/9a2b7a/fff"},
+      {id: 6, img: "https://dummyimage.com/350x150/5a2b7a/fff"},
+      {id: 6, img: "https://dummyimage.com/350x150/4a2b7a/fff"}
+    ];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
