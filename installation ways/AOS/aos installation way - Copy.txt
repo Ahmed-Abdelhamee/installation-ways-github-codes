@@ -1,0 +1,11 @@
+npm install aos --save
+
+npm install --save @types/aos
+
+
+"styles": [
+              "node_modules/aos/dist/aos.css"
+            ],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
