@@ -1,0 +1,22 @@
+
+npm i bootstrap-icons
+
+
+in styles.scss
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+
+
+
+
+
+npm i bootstrap-icons
+
+
+in styles.scss
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
