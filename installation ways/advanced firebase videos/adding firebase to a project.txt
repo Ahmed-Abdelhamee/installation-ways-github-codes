@@ -3,24 +3,29 @@
 
 
 1.	npm i firebase@....version
-2.	npm i firebase-tools
-3.	npm i @angular/fire@....version
+2.	npm i firebase-tools                we should install npm i -g firebase-tools at the frist time
+3.	npm i @angular/fire@....version        but if can't be installed run  =>    --force
 4.	Firebase logout
 5.	Firebase login
 6.	Firebase init
-7.	4-ng add @angular/fire@...version
+7.	ng add @angular/fire@...version
 
 
 
 
  **********************************************************
+
 1.	npm i firebase@....version
-2.	npm i firebase-tools
-3.	npm i @angular/fire@....version
+2.	npm i firebase-tools                we should install npm i -g firebase-tools at the frist time
+3.	npm i @angular/fire@....version        but if can't be installed run  =>    --force
 4.	Firebase logout
 5.	Firebase login
 6.	Firebase init
-7.	4-ng add @angular/fire@...version
+7.	ng add @angular/fire@...version
+
+
+
+
 
 
 
