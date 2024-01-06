@@ -1,4 +1,4 @@
-
+be sure that you stand on the basic path of your project in the terminal
 
 
 

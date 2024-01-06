@@ -1,0 +1,3 @@
+npm i @angular/cli@ ..other-version --force            علي الجهاز version يفضل لو يكون نفس ال
+
+the old version is   @angular/cli@14.2.11 

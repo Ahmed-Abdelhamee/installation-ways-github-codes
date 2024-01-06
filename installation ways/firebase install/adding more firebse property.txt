@@ -1,0 +1,28 @@
+
+
+be sure that you stand on the basic path of your project in the terminal
+
+npm i firebase-tools@...version
+Firebase init
+ng add @angular/fire@...version
+
+
+
+
+
+
+
+npm i firebase-tools@...version
+Firebase init
+ng add @angular/fire@...version
+
+
+
+
+
+
+
+
+
+
+
